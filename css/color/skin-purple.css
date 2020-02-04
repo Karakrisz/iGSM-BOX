@@ -7,194 +7,194 @@
   Design and Developed by: codecarnival
 
 -----------------------------------------------------------------------------------*/
-.theme-bg {background: #aa00ff;}
+.theme-bg {background: #a32a7d;}
 .blog-item .blog-desc {
-  background: rgba(170, 0, 255, 0.95) none repeat scroll 0 0;
+  background: #a32a7d(170, 0, 255, 0.95) none repeat scroll 0 0;
 }
 .mark, mark {
-  background: #aa00ff none repeat scroll 0 0;
+  background: #a32a7d none repeat scroll 0 0;
 }
 .mean-container .mean-nav ul li a:hover {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 textarea:focus {
-  border-color: #aa00ff;
+  border-color: #a32a7d;
 }
 .up-comming-time .time-count {
-  border: 1px solid #aa00ff;
+  border: 1px solid #a32a7d;
 }
 .contact-address:hover i {
-  background: #aa00ff none repeat scroll 0 0;
+  background: #a32a7d none repeat scroll 0 0;
 }
 span.tooltip-content {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 a.button {
-  background: #aa00ff;
+  background: #a32a7d;
 }
 .pro-tab-menu ul li.active a {
-  border-bottom: 1px solid #aa00ff;
+  border-bottom: 1px solid #a32a7d;
 }
 .nivo-controlNav a.active {
-  background: #aa00ff none repeat scroll 0 0;
+  background: #a32a7d none repeat scroll 0 0;
 }
 .submit-btn-1 {
-  background: #aa00ff;
+  background: #a32a7d;
 }
 .header-search-inner::before {
-  background: #aa00ff none repeat scroll 0 0;
+  background: #a32a7d none repeat scroll 0 0;
 }
 input[type="text"]:focus,
 input[type="password"]:focus {
-  border: 1px solid #aa00ff;
+  border: 1px solid #a32a7d;
 }
 
 /*default*/
 a:focus,
 a:hover {
-    color: #aa00ff;
+    color: #a32a7d;
     text-decoration: none;
 }
-.text-theme { color: #aa00ff; }
+.text-theme { color: #a32a7d; }
 .btn-hover-2::before {
-  background: #aa00ff none repeat scroll 0 0;
+  background: #a32a7d none repeat scroll 0 0;
 }
 .slick-arrow-1 .slick-arrow:hover {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .slick-arrow-2 .arrow-prev.slick-arrow:hover, .slick-arrow-2 .arrow-next.slick-arrow:hover {
-  color: #aa00ff;
-  border-color: #aa00ff;
+  color: #a32a7d;
+  border-color: #a32a7d;
 }
 .slick-arrow-3 .arrow-prev.slick-arrow:hover, .slick-arrow-3 .arrow-next.slick-arrow:hover {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .slick-dots-1 .slick-dots li.slick-active {
-  background: #aa00ff;
+  background: #a32a7d;
 }
 .quick-add-to-cart .single_add_to_cart_button:hover {
-  background: #aa00ff none repeat scroll 0 0;
+  background: #a32a7d none repeat scroll 0 0;
 }
 #scrollUp:hover {
-  background: #aa00ff none repeat scroll 0 0;
+  background: #a32a7d none repeat scroll 0 0;
 }
 /*header*/
 .main-menu > li:hover > a{
-  color: #aa00ff;
+  color: #a32a7d;
 } 
 .dropdwn > li:hover > a{
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .main-menu > li > a::before, .dropdwn li a::before, .single-mega-item li a::before {
-  background: #aa00ff none repeat scroll 0 0;
+  background: #a32a7d none repeat scroll 0 0;
 }
 .single-mega-item > li:hover > a{
-  color: #aa00ff;
+  color: #a32a7d;
 } 
 .sticky .main-menu > li:hover > a{
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .total-cart-in:hover .cart-toggler > a {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .del-icon > a:hover > i {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .top-cart-inner.subtotal span {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .user-meta > li > ul > li > a:hover {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 /*footer*/ 
 .footer-menu li:hover a, .footer-menu li:hover a i {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .border-left::before {
-  background: #aa00ff none repeat scroll 0 0;
+  background: #a32a7d none repeat scroll 0 0;
 }
 .copyright-text p a:hover {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .footer-menu-2 li::before {
-  background: #aa00ff none repeat scroll 0 0;
+  background: #a32a7d none repeat scroll 0 0;
 }
 /*Theme */
 .pro-rating a {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .action-button > li:hover > a {
-  background: #aa00ff;
-  border-color: #aa00ff;
+  background: #a32a7d;
+  border-color: #a32a7d;
 }
 .banner-button a:hover {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .product-item-2 .action-button > li:hover > a {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .pro-tab-menu-2 ul li.active::before {
-  background: #aa00ff none repeat scroll 0 0;
+  background: #a32a7d none repeat scroll 0 0;
 }
 .breadcrumb-list > li:hover::before {
-  color: #aa00ff; 
+  color: #a32a7d; 
 }
 .breadcrumb-list > li:hover > a {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .shop-tab li.active a {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .shop-pagination > li.active a,
 .shop-pagination > li:hover a {
-  border-color: #aa00ff;
-  color: #aa00ff;
+  border-color: #a32a7d;
+  color: #a32a7d;
 }
 .widget-search button:hover {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .product-cat .treeview .collapsable > a {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .ui-slider .ui-slider-range {
-  background: #aa00ff none repeat scroll 0 0;
+  background: #a32a7d none repeat scroll 0 0;
 }
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-  background: #aa00ff none repeat scroll 0 0;
+  background: #a32a7d none repeat scroll 0 0;
 }
 .widget-color ul li::before {
-  background: #aa00ff none repeat scroll 0 0;
+  background: #a32a7d none repeat scroll 0 0;
 }
 .p-c a.active img {
-  border: 1px solid #aa00ff;
+  border: 1px solid #a32a7d;
 }
 .cart-tab li a.active {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .cart-tab li a.active span {
-  border: 1px solid #aa00ff;
+  border: 1px solid #a32a7d;
 }
 .product-remove a:hover {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .product-add-cart a:hover {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .order-total {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .order-total-price {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .widget-tags-list li:hover a {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .blog-like-share li a:hover {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .reply-delate li:hover a {
-  color: #aa00ff;
+  color: #a32a7d;
 }
 .bg-shape:hover:before {
- background: #aa00ff none repeat scroll 0 0;
+ background: #a32a7d none repeat scroll 0 0;
 }

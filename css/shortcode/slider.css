@@ -40,6 +40,8 @@
   transform: translateY(-50%);
 }
 
+
+
 .slider-title-1 {
   font-size: 42px;
   font-weight: 400;
@@ -51,6 +53,11 @@
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 35px;
+}
+
+
+.slider-info i {
+  font-size: 70px;
 }
 
 /* -------------- Home 2  ---------------- */

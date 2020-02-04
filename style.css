@@ -117,10 +117,9 @@
 }
 
 .single-brand-product .brand-title {
-  bottom: 15px;
   margin: 0;
-  position: absolute;
-  right: 20px;
+  position: relative;
+  text-align: center;
 }
 
 /* -------------------------------------
@@ -487,6 +486,15 @@
 .blog-item .read-more a:hover,
 .blog-item .blog-meta li a:hover {
   color: #ccc;
+}
+
+.blog-desc h5 {
+  padding-top: 60px;
+}
+
+.blog-desc ul {
+  position: relative;
+  top: 3em;
 }
 
 /* ==========================================
@@ -2158,5 +2166,7 @@ table {
   width: 100%;
   z-index: -1;
 }
+
+
 
 /*================================================*/
