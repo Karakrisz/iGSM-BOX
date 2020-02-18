@@ -484,68 +484,125 @@
     /* ********************************************
     	20. Scroll to .div main menu about us
     ******************************************** */
+    const mq = window.matchMedia("(min-width: 1200px)");
+
     $('a.main-menu__elem__link__about-us').click(function () {
-        $('html, body').animate({
-            scrollTop: $("div.blog-section-rolunk").offset().top - 380
-        }, 1000)
+        if (mq.matches) {
+            $('html, body').animate({
+                scrollTop: $("div.blog-section-rolunk").offset().top - 380
+            }, 1000)
+        } else {
+            $('html, body').animate({
+                scrollTop: $("div.blog-section-rolunk").offset().top
+            }, 1000)
+        }
     });
 
     /* ********************************************
     	21. Scroll to .div new mobile
     ******************************************** */
+
     $('a.main-menu__elem__link__new-mobile').click(function () {
-        $('html, body').animate({
-            scrollTop: $("div.mobile-by-brand-section").offset().top - 380
-        }, 1000)
+        if (mq.matches) {
+            $('html, body').animate({
+                scrollTop: $("div.mobile-by-brand-section").offset().top - 380
+            }, 1000)
+        } else {
+            $('html, body').animate({
+                scrollTop: $("div.mobile-by-brand-section").offset().top
+            }, 1000)
+        }
     });
 
     /* ********************************************
     	22. Scroll to .div mobile case
     ******************************************** */
     $('a.main-menu__elem__link__mobile-case').click(function () {
-        $('html, body').animate({
-            scrollTop: $("div.product-tab-section-mobile-case").offset().top - 380
-        }, 1000)
+        if (mq.matches) {
+            $('html, body').animate({
+                scrollTop: $("div.product-tab-section-mobile-case").offset().top - 380
+            }, 1000)
+        } else {
+            $('html, body').animate({
+                scrollTop: $("div.product-tab-section-mobile-case").offset().top
+            }, 1000)
+        }
     });
 
     /* ********************************************
     	23. Scroll to .div mobile glass
     ******************************************** */
     $('a.main-menu__elem__link__mobile-glass').click(function () {
-        $('html, body').animate({
-            scrollTop: $("div.product-tab-section-mobile-glass").offset().top - 380
-        }, 1000)
+        if (mq.matches) {
+            $('html, body').animate({
+                scrollTop: $("div.product-tab-section-mobile-glass").offset().top - 380
+            }, 1000)
+        } else {
+            $('html, body').animate({
+                scrollTop: $("div.product-tab-section-mobile-glass").offset().top
+            }, 1000)
+        }
     });
 
     /* ********************************************
     	24. Scroll to .div special offer
     ******************************************** */
     $('a.main-menu__elem__link__special-offer').click(function () {
-        $('html, body').animate({
-            scrollTop: $("div.up-comming-product-section-special-offer").offset().top - 380
-        }, 1000)
+        if (mq.matches) {
+            $('html, body').animate({
+                scrollTop: $("div.up-comming-product-section-special-offer").offset().top - 380
+            }, 1000)
+        } else {
+            $('html, body').animate({
+                scrollTop: $("div.up-comming-product-section-special-offer").offset().top
+            }, 1000)
+        }
     });
-
 
     /* ********************************************
     	25. Scroll to .div contact
     ******************************************** */
     $('a.main-menu__elem__link__contact').click(function () {
-        $('html, body').animate({
-            scrollTop: $("div.footer-top").offset().top - 380
-        }, 1000)
+        if (mq.matches) {
+            $('html, body').animate({
+                scrollTop: $("div.footer-top").offset().top - 380
+            }, 1000)
+        } else {
+            $('html, body').animate({
+                scrollTop: $("div.footer-top").offset().top
+            }, 1000)
+        }
+    });
+
+    /* -------------------------------------
+      1. KaraKrisz jQuery registration ajax 
+    ------------------------------------- */
+
+    $("#Registration_Form_ID").submit(function (event) {
+        event.preventDefault();
+        var register_name = $("#register_name").val();
+        var register_email = $("#register_email").val();
+        var register_password = $("#register_password").val();
+        $.ajax({
+            type: "POST",
+            url: "login/reg",
+            data: "register_name=" + register_name + "&register_email=" + register_email + "&register_password=" + register_password,
+            success: function () {
+                $('.inserted-alert-success').fadeIn();
+                $('#inserted').text('Köszönjük, hogy regisztráltál');
+            }
+        });
     });
 
 })(jQuery);
-
-
 
 
 /* ********************************************
     18. STICKY sticky-header
 ******************************************** */
 $(window).scroll(function () {
-    if ($(this).scrollTop() > 1) {
+    const mq = window.matchMedia("(min-width: 1200px)");
+    if ($(this).scrollTop() > 1 && mq.matches) {
         $('#sticky-header').addClass("sticky");
     } else {
         $('#sticky-header').removeClass("sticky");

@@ -848,10 +848,9 @@
 /* -------------------------------------
     9.1 Breadcrumbs section
 ------------------------------------- */
-.breadcrumbs-section {}
 
 .breadcrumbs {
-  background: #f6f6f6 url("img/breadcrumb/1.png") no-repeat scroll center center;
+  background: #f6f6f6 url("img/brand/login.jpg") no-repeat scroll center center;
 }
 
 .overlay-bg {
@@ -2167,6 +2166,43 @@ table {
   z-index: -1;
 }
 
+.jumbotron {
+  background: #f6f6f6;
+}
 
+/* -------------------------------------
+  1. KaraKrisz css
+------------------------------------- */
+.login_name {
+  position: relative;
+  top: 0.5em;
+}
+
+.modal-dialog {
+  position: relative;
+  top: 5em;
+}
+
+.inserted-alert-success {
+  display: none;
+}
+
+#inserted {
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .login_name {
+    top: -1em;
+  }
+
+  .slider-img {
+    width: 100%;
+  }
+
+  .slider-info {
+    display: none;
+  }
+}
 
 /*================================================*/
