@@ -73,13 +73,16 @@
   16. Bankground youtube video
   17. Dotted-overlay
 ----------------------------------------------------------------------------------- */
+body {
+  max-width: 1300px;
+  margin: auto;
+  background-color: #f6f6f6;
+}
 
 /*----------------------------------------
   5. Google Fonts
 ----------------------------------------*/
 @import 'https://fonts.googleapis.com/css?family=Raleway:400,500,600,700|Roboto:400,500,700';
-
-
 
 
 /*************************************
@@ -113,13 +116,19 @@
 }
 
 .single-brand-product img {
-  width: 100%;
+  width: 80%;
 }
 
-.single-brand-product .brand-title {
+.single-brand-product {
   margin: 0;
   position: relative;
   text-align: center;
+}
+
+.brand-title {
+  position: relative;
+  text-align: center;
+  margin: 15px 0;
 }
 
 /* -------------------------------------
@@ -128,10 +137,11 @@
 .product-item {
   margin-bottom: 30px;
   transition: all 0.3s ease 0s;
+  text-align: center;
 }
 
 .product-img img {
-  width: 100%;
+  width: 80%;
 }
 
 .product-info {
@@ -182,9 +192,12 @@
   margin-right: 0;
 }
 
-.action-button>li>a {
-  background: transparent;
+.action-button li>a {
   border: 1px solid #ddd;
+  border-top-color: rgb(221, 221, 221);
+  border-right-color: rgb(221, 221, 221);
+  border-bottom-color: rgb(221, 221, 221);
+  border-left-color: rgb(221, 221, 221);
   border-radius: 50%;
   color: #999999;
   display: block;
@@ -198,9 +211,9 @@
   line-height: 28px;
 }
 
-.action-button>li:hover>a {
-  background: #FF7F00;
-  border-color: #FF7F00;
+.action-button li>a:hover {
+  background: #363538;
+  border-color: #363538;
   color: #fff;
 }
 
@@ -218,7 +231,7 @@
 }
 
 .up-comming-pro-img img {
-  width: 100%;
+  width: 90%;
 }
 
 .up-comming-pro-info {
@@ -287,7 +300,7 @@
 .ribbon-price {
   left: 15px;
   position: absolute;
-  top: 30px;
+  top: 10px;
   transform: rotate(-42deg);
 }
 
@@ -300,17 +313,19 @@
 }
 
 .banner-img img {
-  width: 100%;
+  width: 90%;
+  left: 100px;
 }
 
 .banner-info {
   left: 30px;
   position: absolute;
   top: 35%;
+  color: #3a0e81;
 }
 
 .banner-featured-list li {
-  color: #666666;
+  color: #3a0e81;
 }
 
 .banner-featured-list li i {
@@ -349,7 +364,7 @@
 }
 
 .pro-tab-menu ul li a.active {
-  border-bottom: 1px solid #ffbf7f;
+  border-bottom: 1px solid #a32a7d;
   color: #666666;
 }
 
@@ -390,6 +405,7 @@
 
 .blog-meta {
   line-height: 1;
+  display: none;
 }
 
 .blog-meta li {
@@ -417,15 +433,16 @@
   margin-bottom: 30px;
   overflow: hidden;
   position: relative;
+  text-align: center;
 }
 
 .blog-item img {
-  width: 100%;
+  width: 50%;
 }
 
 .blog-item .blog-desc {
   backface-visibility: hidden;
-  background: rgba(255, 127, 0, 0.95) none repeat scroll 0 0;
+  background: #3a0e81;
   height: 100%;
   left: 0;
   padding: 40px;
@@ -489,12 +506,14 @@
 }
 
 .blog-desc h5 {
-  padding-top: 60px;
+  padding-top: 20px;
+  color: white;
+  font-size: 25px;
 }
 
 .blog-desc ul {
   position: relative;
-  top: 3em;
+  top: 2em;
 }
 
 /* ==========================================
@@ -944,11 +963,11 @@
   font-size: 25px;
   height: 30px;
   text-align: center;
-  width: 30px;
 }
 
 .shop-tab li a i {
   line-height: 30px;
+  padding: 0 10px;
 }
 
 .shop-tab li a.active {
@@ -993,6 +1012,40 @@
   width: 65%;
 }
 
+.cookie-product-info {
+  float: left;
+  padding: 30px 40px;
+  text-align: left;
+  width: 100%;
+}
+
+.cookie-product-info-first-phase button {
+  float: right;
+}
+
+.cookie-product-info-first-phase-btn-okay {
+  background: #3a0e81;
+  color: white;
+}
+
+.cookie-product-info-first-phase-btn-not-accepted {
+  margin-right: 5px;
+  border: 1px solid #3a0e81;
+}
+
+.cookie-product-info-second-phase {
+  display: none;
+}
+
+.not-accepted-cookie-product-info-second-phase {
+  display: none;
+}
+
+.cookie-product-info-second-phase button {
+  float: left;
+  font-size: 30px;
+}
+
 .shop-list .brand-name {
   color: #999999;
   font-style: italic;
@@ -1002,6 +1055,7 @@
 .shop-list p {
   color: #666;
   margin-bottom: 30px;
+  max-width: 100px;
 }
 
 /* -------------------------------------
@@ -1997,7 +2051,10 @@ table {
 }
 
 .team-member-photo img {
+  width: 250px;
+  height: 250px;
   margin: auto;
+  z-index: 9999;
 }
 
 .member-name {
@@ -2024,13 +2081,12 @@ table {
   content: "";
   height: 150px;
   left: 0;
-  margin-top: -65px;
+  margin-top: -135px;
   position: absolute;
   top: 0;
   transform: skewY(-25deg);
   transition: all 0.5s ease 0s;
   width: 100%;
-  z-index: -1;
 }
 
 .bg-shape:hover:before {
@@ -2115,11 +2171,11 @@ table {
 }
 
 .error-404 img {
-  width: 100%;
+  width: 50%;
 }
 
 .go-to-btn {
-  bottom: 20%;
+  bottom: 20px;
   position: absolute;
   right: 27%;
 }
@@ -2173,36 +2229,112 @@ table {
 /* -------------------------------------
   1. KaraKrisz css
 ------------------------------------- */
-.login_name {
+.card-body {
+  box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
+}
+
+.instagram:hover {
+  background-color: red;
+  color: white;
+}
+
+.cookies-set-btn {
+  display: none;
+}
+
+.height-150 {
+  height: 200px;
+}
+
+.uppercase {
+  padding-top: 40px;
+}
+
+.bg-color-w {
+  background-color: white;
+}
+
+.style-customizer {
+  display: none;
+}
+
+.pro-rating {
+  display: none;
+}
+
+#gear {
+  display: none;
+}
+
+input[type="email"] {
+  background:
+    #fff none repeat scroll 0 0;
+  border: 1px solid transparent;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  color:
+    #999999;
+  font-size: 13px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.login_data {
   position: relative;
   top: 0.5em;
+  padding-right: 10px;
+}
+
+.alert p {
+  padding-top: 15px;
+  color: #3a0e81;
+  font-size: 15px;
 }
 
 .modal-dialog {
   position: relative;
-  top: 5em;
+  top: 15em;
+  z-index: 100000;
+}
+
+.inserted-alert-danger {
+  display: none;
 }
 
 .inserted-alert-success {
   display: none;
 }
 
-#inserted {
-  padding-top: 15px;
+.popular-product__div--mobile-visualization-silicone-case-content {
+  display: none;
 }
 
-@media screen and (max-width: 600px) {
-  .login_name {
-    top: -1em;
-  }
 
-  .slider-img {
-    width: 100%;
-  }
-
-  .slider-info {
-    display: none;
-  }
+.popular-product__div--mobile-visualization-book-case-content {
+  display: none;
 }
+
+
+.popular-product__div--mobile-visualization-safety-case-content {
+  display: none;
+}
+
+.popular-product__div--mobile-visualization-smart-case-content {
+  display: none;
+}
+
+.popular-product__div--mobile-visualization-standard-mobile-glass-content {
+  display: none;
+}
+
+.popular-product__div--mobile-visualization-3d-mobile-glass-content {
+  display: none;
+}
+
+.quick-desc ul li {
+  padding: 10px 0;
+}
+
 
 /*================================================*/

@@ -41,8 +41,8 @@
 ======================================
 [ End table content ]
 ======================================*/
-
 (function ($) {
+
     "use strict";
 
     /* ********************************************
@@ -263,10 +263,10 @@
     /* ********************************************
     	5. Countdown
     ******************************************** */
-    $('[data-countdown]').countdown('2020/12/20', function (event) {
+    $('[data-countdown]').countdown('2020/05/28', function (event) {
         $(this).html(
             event.strftime(
-                '<span class="cdown days"><span class="time-count">%-D</span> <p>Days</p></span> <span class="cdown hour"><span class="time-count">%-H</span> <p>Hour</p></span> <span class="cdown minutes"><span class="time-count">%M</span> <p>Mint</p></span> <span class="cdown second"> <span><span class="time-count">%S</span> <p>Sec</p></span>'
+                '<span class="cdown days"><span class="time-count">%-D</span> <p>Nap</p></span> <span class="cdown hour"><span class="time-count">%-H</span> <p>Óra</p></span> <span class="cdown minutes"><span class="time-count">%M</span> <p>Perc</p></span> <span class="cdown second"> <span><span class="time-count">%S</span> <p>Mp</p></span>'
             )
         );
     });
@@ -455,7 +455,7 @@
     });
 
     /* ********************************************
-    	17. Scroll to .div new mobile
+    	1. KaraKrisz jQuery Scroll to .div new mobile
     ******************************************** */
     $('i.zmdi-mobile').click(function () {
         $('html, body').animate({
@@ -464,7 +464,7 @@
     });
 
     /* ********************************************
-    	18. Scroll to .div mobile case
+    	2. Scroll to .div mobile case
     ******************************************** */
     $('i.zmdi-mobile-case').click(function () {
         $('html, body').animate({
@@ -473,7 +473,7 @@
     });
 
     /* ********************************************
-    	19. Scroll to .div mobile glass
+    	3. KaraKrisz jQuery Scroll to .div mobile glass
     ******************************************** */
     $('i.zmdi-mobile-glass').click(function () {
         $('html, body').animate({
@@ -482,100 +482,26 @@
     });
 
     /* ********************************************
-    	20. Scroll to .div main menu about us
+    	4. KaraKrisz jQuery cookie window navigation
     ******************************************** */
-    const mq = window.matchMedia("(min-width: 1200px)");
 
-    $('a.main-menu__elem__link__about-us').click(function () {
-        if (mq.matches) {
-            $('html, body').animate({
-                scrollTop: $("div.blog-section-rolunk").offset().top - 380
-            }, 1000)
-        } else {
-            $('html, body').animate({
-                scrollTop: $("div.blog-section-rolunk").offset().top
-            }, 1000)
-        }
+    $('.cookie-product-info-first-phase-btn-overview').click(function () {
+        $('.cookie-product-info-second-phase').fadeIn();
+        $('.cookie-product-info-first-phase').hide();
     });
 
-    /* ********************************************
-    	21. Scroll to .div new mobile
-    ******************************************** */
-
-    $('a.main-menu__elem__link__new-mobile').click(function () {
-        if (mq.matches) {
-            $('html, body').animate({
-                scrollTop: $("div.mobile-by-brand-section").offset().top - 380
-            }, 1000)
-        } else {
-            $('html, body').animate({
-                scrollTop: $("div.mobile-by-brand-section").offset().top
-            }, 1000)
-        }
+    $('.zmdi-arrow-left').click(function () {
+        $('.cookie-product-info-second-phase').hide();
+        $('.cookie-product-info-first-phase').fadeIn();
     });
 
-    /* ********************************************
-    	22. Scroll to .div mobile case
-    ******************************************** */
-    $('a.main-menu__elem__link__mobile-case').click(function () {
-        if (mq.matches) {
-            $('html, body').animate({
-                scrollTop: $("div.product-tab-section-mobile-case").offset().top - 380
-            }, 1000)
-        } else {
-            $('html, body').animate({
-                scrollTop: $("div.product-tab-section-mobile-case").offset().top
-            }, 1000)
-        }
-    });
-
-    /* ********************************************
-    	23. Scroll to .div mobile glass
-    ******************************************** */
-    $('a.main-menu__elem__link__mobile-glass').click(function () {
-        if (mq.matches) {
-            $('html, body').animate({
-                scrollTop: $("div.product-tab-section-mobile-glass").offset().top - 380
-            }, 1000)
-        } else {
-            $('html, body').animate({
-                scrollTop: $("div.product-tab-section-mobile-glass").offset().top
-            }, 1000)
-        }
-    });
-
-    /* ********************************************
-    	24. Scroll to .div special offer
-    ******************************************** */
-    $('a.main-menu__elem__link__special-offer').click(function () {
-        if (mq.matches) {
-            $('html, body').animate({
-                scrollTop: $("div.up-comming-product-section-special-offer").offset().top - 380
-            }, 1000)
-        } else {
-            $('html, body').animate({
-                scrollTop: $("div.up-comming-product-section-special-offer").offset().top
-            }, 1000)
-        }
-    });
-
-    /* ********************************************
-    	25. Scroll to .div contact
-    ******************************************** */
-    $('a.main-menu__elem__link__contact').click(function () {
-        if (mq.matches) {
-            $('html, body').animate({
-                scrollTop: $("div.footer-top").offset().top - 380
-            }, 1000)
-        } else {
-            $('html, body').animate({
-                scrollTop: $("div.footer-top").offset().top
-            }, 1000)
-        }
+    $('.cookie-product-info-first-phase-btn-not-accepted').click(function () {
+        $('.not-accepted-cookie-product-info-second-phase').fadeIn();
+        $('.cookie-product-info-first-phase').hide();
     });
 
     /* -------------------------------------
-      1. KaraKrisz jQuery registration ajax 
+      5. KaraKrisz jQuery registration ajax 
     ------------------------------------- */
 
     $("#Registration_Form_ID").submit(function (event) {
@@ -583,29 +509,168 @@
         var register_name = $("#register_name").val();
         var register_email = $("#register_email").val();
         var register_password = $("#register_password").val();
+        var register_password_2 = $("#register_password_2").val();
+        if (register_password !== register_password_2) {
+            $('.inserted-alert-danger').fadeIn();
+            $('#incorrect_password').text('A jalszavak nem egyeznek meg, próbáld meg újra!');
+        } else if (grecaptcha.getResponse() == "") {
+            $('.inserted-alert-danger').fadeIn();
+            $('#incorrect_password').text('Pipálni kell, hogy nem vagy robot!');
+        } else {
+            $.ajax({
+                type: "POST",
+                url: "login/reg",
+                data: "register_name=" + register_name + "&register_email=" + register_email + "&register_password=" + register_password,
+                success: function () {
+                    $('.inserted-alert-success').fadeIn();
+                    $('#inserted').text('Köszönjük, hogy regisztráltál');
+                }
+            });
+        }
+    });
+
+    $("#aRegistration_Form_ID").submit(function (event) {
+        event.preventDefault();
+        var a_register_name = $("#a_register_name").val();
+        var a_register_email = $("#a_register_email").val();
+        var a_register_password = $("#a_register_password").val();
+        var a_register_password_2 = $("#a_register_password_2").val();
+        if (a_register_password === a_register_password_2) {
+            $.ajax({
+                type: "POST",
+                url: "admin-login/reg",
+                data: "a_register_name=" + a_register_name + "&a_register_email=" + a_register_email + "&a_register_password=" + a_register_password,
+                success: function () {
+                    $('.inserted-alert-success').fadeIn();
+                    $('#inserted').text('Köszönjük, hogy regisztráltál');
+                }
+            });
+        } else {
+            $('.inserted-alert-danger').fadeIn();
+            $('#incorrect_password').text('A jalszavak nem egyeznek meg, próbáld meg újra!');
+        }
+    });
+
+    $("#myDataChange").submit(function (event) {
+        event.preventDefault();
+        var name = $("#name").val();
+        var email = $("#email").val();
         $.ajax({
             type: "POST",
-            url: "login/reg",
-            data: "register_name=" + register_name + "&register_email=" + register_email + "&register_password=" + register_password,
+            url: "/myData/edit",
+            data: "name=" + name + "&email=" + email,
             success: function () {
                 $('.inserted-alert-success').fadeIn();
-                $('#inserted').text('Köszönjük, hogy regisztráltál');
+                $('#inserted').text('Sikeres adatmódosítás!');
             }
         });
     });
 
+    /* -------------------------------------
+      6. KaraKrisz jQuery cookieAccepted
+    ------------------------------------- */
+    // ezt szebben megírni
+    $('#cookies').click(function (event) {
+        // var date = new Date();
+        //   date.setTime(date.getTime() + (60 * 1000));
+        event.preventDefault();
+        $('#CookieModal').modal('hide');
+        $('.header-top-bar').slideDown();
+        $('.smessage-btn').slideDown();
+        $('.cookies-set-btn').hide();
+        $.cookie("cookieAccepted", true, {
+            expires: 30
+        });
+    });
+
+    if (!$.cookie('cookieAccepted')) {
+        // show cookie info
+        $('#CookieModal').modal('show');
+        $('.cookies-set-btn').slideDown();
+        $('.smessage-btn').hide();
+        $('.header-top-bar').hide();
+    } else {
+        $('.header-top-bar').slideDown();
+        $('.smessage-btn').slideDown();
+        $('.cookies-set-btn').hide();
+    }
+    /* -------------------------------------
+         7. KaraKrisz jQuery not accepted cookie
+       ------------------------------------- */
+    $('.cookies-set-btn').click(function (event) {
+        event.preventDefault();
+        $('#CookieModal').modal('show');
+    });
+
+    $('#not-accepted-cookies').click(function (event) {
+        event.preventDefault();
+    });
+
+    $('#not-accepted-cookies-false').click(function (event) {
+        // var date = new Date();
+        // date.setTime(date.getTime() + (60 * 1000));
+        event.preventDefault();
+        $('#CookieModal').modal('hide');
+        $('.header-top-bar').slideDown();
+        $.cookie("cookieAccepted", true, {
+            expires: 30
+        });
+    });
+
+    $('#not-accepted-cookies-true').click(function (event) {
+        event.preventDefault();
+        window.location.replace("/informative");
+    });
+    /* ********************************************
+    	7. KaraKrisz jQuery mobile view events
+    ******************************************** */
+
+    $('#additional_silicone_case').click(function () {
+        $('.popular-product__div--mobile-hide').slideDown();
+        $('.popular-product__div--mobile-visualization-silicone-case-content').hide();
+    });
+
+    $('#additional_book_case').click(function () {
+        $('.popular-product__div--book-case-mobile-hide').slideDown();
+        $('.popular-product__div--mobile-visualization-book-case-content').hide();
+    });
+
+    $('#additional_safety_case').click(function () {
+        $('.popular-product__div--safety-case-mobile-hide').slideDown();
+        $('.popular-product__div--mobile-visualization-safety-case-content').hide();
+    });
+
+    $('#additional_smart_case').click(function () {
+        $('.popular-product__div--smart-case-mobile-hide').slideDown();
+        $('.popular-product__div--mobile-visualization-smart-case-content').hide();
+    });
+
+    $('#additional_standard_mobile_glass').click(function () {
+        $('.popular-product__div--standard-mobile-glass-hide').slideDown();
+        $('.popular-product__div--mobile-visualization-standard-mobile-glass-content').hide();
+    });
+
+    $('#additional_3d_mobile_glass').click(function () {
+        $('.popular-product__div--3d-mobile-glass-hide').slideDown();
+        $('.popular-product__div--mobile-visualization-3d-mobile-glass-content').hide();
+    });
 })(jQuery);
-
-
 /* ********************************************
     18. STICKY sticky-header
 ******************************************** */
-$(window).scroll(function () {
+
+$(document).on("scroll", function () {
     const mq = window.matchMedia("(min-width: 1200px)");
-    if ($(this).scrollTop() > 1 && mq.matches) {
-        $('#sticky-header').addClass("sticky");
+    if ($(document).scrollTop() > 0.1 && mq.matches) {
+        $('.header-area').addClass('sticky');
     } else {
-        $('#sticky-header').removeClass("sticky");
+        $('.header-area').removeClass('sticky');
+    }
+    const mqm = window.matchMedia("(max-width: 767px)");
+    if ($(document).scrollTop() > 145 && mqm.matches) {
+        $('.mobile-menu-area').addClass('sticky-mobile');
+    } else {
+        $('.mobile-menu-area').removeClass('sticky-mobile');
     }
 });
 /* ********************************************************* */

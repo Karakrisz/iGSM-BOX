@@ -1,5 +1,5 @@
 <!-- START SLIDER AREA -->
-<div class="slider-area plr-185 mb-80 section">
+<div class="slider-area plr-185 mb-50 section bg-color-w box-s">
     <div class="container-fluid">
         <div class="slider-content">
             <div class="active-slider-1 slick-arrow-1 slick-dots-1">
@@ -85,7 +85,7 @@
 <section id="page-content" class="page-wrapper section">
 
     <!-- BY BRAND SECTION START-->
-    <div class="by-brand-section mobile-by-brand-section mb-80">
+    <div id="new-mobile" class="by-brand-section mobile-by-brand-section bg-color-w box-s mb-50">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -101,7 +101,7 @@
                     <!-- single-brand-product start -->
                     <div class="col-lg-12">
                         <div class="single-brand-product">
-                            <a href="single-product.html"><img src="img/product/samsung-s10.jpg" alt=""></a>
+                            <img src="img/product/samsung-s10.jpg" alt="">
                             <h3 class="brand-title text-gray">
                                 <a href="#">Samusung Galaxy S10 Plus</a>
                             </h3>
@@ -111,7 +111,7 @@
                     <!-- single-brand-product start -->
                     <div class="col-lg-12">
                         <div class="single-brand-product">
-                            <a href="single-product.html"><img src="img/product/iphone-7plus.jpg" alt=""></a>
+                            <img src="img/product/iphone-7plus.jpg" alt="">
                             <h3 class="brand-title text-gray">
                                 <a href="#">iPhone 7 plus</a>
                             </h3>
@@ -121,7 +121,7 @@
                     <!-- single-brand-product start -->
                     <div class="col-lg-12">
                         <div class="single-brand-product">
-                            <a href="single-product.html"><img src="img/product/samsung-a20e.jpg" alt=""></a>
+                            <img src="img/product/samsung-a20e.jpg" alt="">
                             <h3 class="brand-title text-gray">
                                 <a href="#">Samsung Galaxy A20e</a>
                             </h3>
@@ -131,7 +131,7 @@
                     <!-- single-brand-product start -->
                     <div class="col-lg-12">
                         <div class="single-brand-product">
-                            <a href="single-product.html"><img src="img/product/apple-w.jpg" alt=""></a>
+                            <img src="img/product/apple-w.jpg" alt="">
                             <h3 class="brand-title text-gray">
                                 <a href="#">Apple watch 38mm</a>
                             </h3>
@@ -141,7 +141,7 @@
                     <!-- single-brand-product start -->
                     <div class="col-lg-12">
                         <div class="single-brand-product">
-                            <a href="single-product.html"><img src="img/product/airpods-2.jpg" alt=""></a>
+                            <img src="img/product/airpods-2.jpg" alt="">
                             <h3 class="brand-title text-gray">
                                 <a href="#">Apple AirPods 2</a>
                             </h3>
@@ -154,7 +154,7 @@
     </div>
     <!-- BY BRAND SECTION END -->
     <!-- PRODUCT TAB SECTION START -->
-    <div class="product-tab-section product-tab-section-mobile-case mb-50">
+    <div id="mobile-case" class="product-tab-section product-tab-section-mobile-case bg-color-w box-s mb-50">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -205,7 +205,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#SiliconeCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -235,15 +235,19 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#SiliconeCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
+                            <div class="popular-product__div--mobile-visualization-silicone-case-content text-center">
+                                <p>További szilikon tokok</p>
+                                <i id="additional_silicone_case" class="flashit zmdi zmdi-caret-down-circle"></i>
+                            </div>
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product//silicone-cases/silicone-case-img-3.jpg" alt="" />
@@ -265,7 +269,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#SiliconeCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -273,7 +277,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/silicone-cases/silicone-case-img-4.jpg" alt="" />
@@ -295,7 +299,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#SiliconeCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -303,7 +307,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/silicone-cases/silicone-case-img-5.jpg" alt="" />
@@ -325,7 +329,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#SiliconeCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -333,7 +337,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/silicone-cases/silicone-case-img-6.jpg" alt="" />
@@ -355,7 +359,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#SiliconeCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -363,7 +367,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/silicone-cases/silicone-case-img-7.jpg" alt="" />
@@ -385,7 +389,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#SiliconeCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -393,7 +397,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/silicone-cases/silicone-case-img-8.jpg" alt="" />
@@ -415,7 +419,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#SiliconeCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -445,13 +449,13 @@
                                         <a href="#"><i class="zmdi zmdi-star-half"></i></a>
                                         <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
                                     </div>
-                                    <h3 class="pro-price">1500.- Ft tól</h3>
+                                    <h3 class="pro-price">2000.- Ft tól</h3>
                                     <ul class="action-button">
                                         <li>
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#BookCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -481,15 +485,19 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#BookCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
+                            <div class="popular-product__div--mobile-visualization-book-case-content text-center">
+                                <p>További könyv tokok</p>
+                                <i id="additional_book_case" class="flashit zmdi zmdi-caret-down-circle"></i>
+                            </div>
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--book-case-mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/book-case/book-case-2.jpg" alt="" />
@@ -511,7 +519,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#BookCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -519,7 +527,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--book-case-mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/book-case/book-case-3.jpg" alt="" />
@@ -541,7 +549,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#BookCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -549,7 +557,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--book-case-mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/book-case/book-case-4.jpg" alt="" />
@@ -571,7 +579,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#BookCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -579,7 +587,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--book-case-mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/book-case/case-book-5.jpg" alt="" />
@@ -601,7 +609,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#BookCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -609,7 +617,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--book-case-mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/book-case/book-case-6.jpg" alt="" />
@@ -631,7 +639,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#BookCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -639,7 +647,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--book-case-mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/book-case/case-book-7.jpg" alt="" />
@@ -661,7 +669,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#BookCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -697,7 +705,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#securityCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -727,15 +735,19 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#securityCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
+                            <div class="popular-product__div--mobile-visualization-safety-case-content text-center">
+                                <p>További biztonsági tokok</p>
+                                <i id="additional_safety_case" class="flashit zmdi zmdi-caret-down-circle"></i>
+                            </div>
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--safety-case-mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/security-cases/security-cases-3.jpg" alt="" />
@@ -757,7 +769,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#securityCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -765,7 +777,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--safety-case-mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/security-cases/security-cases-4.jpg" alt="" />
@@ -787,7 +799,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#securityCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -795,7 +807,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--safety-case-mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/security-cases/security-cases-5.jpg" alt="" />
@@ -817,7 +829,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#securityCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -825,7 +837,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--safety-case-mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/security-cases/security-cases-6.jpg" alt="" />
@@ -847,7 +859,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#securityCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -855,7 +867,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--safety-case-mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/security-cases/security-cases-7.jpg" alt="" />
@@ -877,7 +889,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#securityCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -885,7 +897,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--safety-case-mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/security-cases/security-cases-8.jpg" alt="" />
@@ -907,7 +919,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#securityCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -943,7 +955,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#smartCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -973,15 +985,19 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#smartCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
+                            <div class="popular-product__div--mobile-visualization-smart-case-content text-center">
+                                <p>További biztonsági tokok</p>
+                                <i id="additional_smart_case" class="flashit zmdi zmdi-caret-down-circle"></i>
+                            </div>
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--smart-case-mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/smart-cover/smart-cover-3.jpg" alt="" />
@@ -1003,7 +1019,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#smartCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1011,7 +1027,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--smart-case-mobile-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/smart-cover/smart-cover--4.jpg" alt="" />
@@ -1033,7 +1049,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#smartCaseModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1047,9 +1063,8 @@
         </div>
     </div>
     <!-- PRODUCT TAB SECTION END -->
-
     <!-- UP COMMING PRODUCT SECTION START -->
-    <div class="up-comming-product-section up-comming-product-section-special-offer mb-80">
+    <div id="special-offe" class="up-comming-product-section up-comming-product-section-special-offer bg-color-w box-s mb-50">
         <div class="container">
             <div class="row">
                 <!-- up-comming-pro -->
@@ -1062,10 +1077,7 @@
                         </div>
                         <div class="up-comming-pro-info f-left">
                             <h3><a href="#">Havi Akciós Termékünk</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elitest, sed do eiusmod
-                                tempor incididunt ut labore et dolores top magna aliqua. Ut enim ad minim
-                                veniam, quis nostrud exer citation ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. laborum. </p>
+                            <p>Ha szeretnéd elkerülni azt, hogy készüléked kijelzőjét sérülés érje, akkor most meg van lehetőséged hozzájutni, még pedig <strong>50% kedvezménnyel</strong>. Most nagyon jó áron megkapod üvegfóliánkat, amit díjmentesen felteszünk neked, levegőmentesen! <strong>Ne húzd az időt, mi hamarabb térj be hozzánk!</strong> </p>
                             <div class="up-comming-time">
                                 <div data-countdown="2019/02/02"></div>
                             </div>
@@ -1076,28 +1088,28 @@
                     <div class="banner-item banner-1">
                         <div class="ribbon-price">
                             <br>
-                            <span>Ár</span>
+                            <span>1500 Ft</span>
                         </div>
                         <div class="banner-img">
                             <a href="#"><img src="img/product/on-sale/on-sale.jpg" alt=""></a>
                         </div>
                         <div class="banner-info">
-                            <h3><a href="#">Adott termék </a></h3>
+                            <h3><a href="#">Üvegfólia </a></h3>
                             <ul class="banner-featured-list">
                                 <li>
-                                    <i class="zmdi zmdi-check"></i><span>Lorem ipsum dolor</span>
+                                    <i class="zmdi zmdi-check"></i><span>ingyenes felrakás</span>
                                 </li>
                                 <li>
-                                    <i class="zmdi zmdi-check"></i><span>amet, consectetur</span>
+                                    <i class="zmdi zmdi-check"></i><span>levegő mentes felhelyezés</span>
                                 </li>
                                 <li>
-                                    <i class="zmdi zmdi-check"></i><span>adipisicing elitest,</span>
+                                    <i class="zmdi zmdi-check"></i><span>garancia leválás esetén</span>
                                 </li>
                                 <li>
-                                    <i class="zmdi zmdi-check"></i><span>eiusmod tempor</span>
+                                    <i class="zmdi zmdi-check"></i><span>minőségi termék,</span>
                                 </li>
                                 <li>
-                                    <i class="zmdi zmdi-check"></i><span>labore et dolore.</span>
+                                    <i class="zmdi zmdi-check"></i><span>100% védelem</span>
                                 </li>
                             </ul>
                         </div>
@@ -1109,7 +1121,7 @@
     <!-- UP COMMING PRODUCT SECTION END -->
 
     <!-- PRODUCT TAB SECTION START -->
-    <div class="product-tab-section product-tab-section-mobile-glass mb-50">
+    <div id="mobile-glass" class="product-tab-section product-tab-section-mobile-glass bg-color-w box-s mb-50">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -1160,7 +1172,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#mobile-glass" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1190,15 +1202,19 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#mobileGlassModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
+                            <div class="popular-product__div--mobile-visualization-standard-mobile-glass-content text-center">
+                                <p>További üvegfóliák</p>
+                                <i id="additional_standard_mobile_glass" class="flashit zmdi zmdi-caret-down-circle"></i>
+                            </div>
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--standard-mobile-glass-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/glass-foil/glass-foil-3.jpg" alt="" />
@@ -1220,7 +1236,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#mobileGlassModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1228,7 +1244,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--standard-mobile-glass-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/glass-foil/glass-foil-4.jpg" alt="" />
@@ -1250,7 +1266,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#mobileGlassModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1258,7 +1274,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--standard-mobile-glass-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/glass-foil/glass-foil-5.jpg" alt="" />
@@ -1280,7 +1296,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#mobileGlassModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1288,7 +1304,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--standard-mobile-glass-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/glass-foil/glass-foil-6.jpg" alt="" />
@@ -1310,7 +1326,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#mobileGlassModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1318,7 +1334,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--standard-mobile-glass-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/glass-foil/glass-foil-7.jpg" alt="" />
@@ -1340,7 +1356,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#mobileGlassModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1348,7 +1364,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--standard-mobile-glass-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/glass-foil/glass-foil-8.jpg" alt="" />
@@ -1370,7 +1386,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#mobileGlassModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1406,7 +1422,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#3DmobileGlassModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1436,15 +1452,19 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#3DmobileGlassModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
+                            <div class="popular-product__div--mobile-visualization-3d-mobile-glass-content text-center">
+                                <p>További 3D üvegfóliák</p>
+                                <i id="additional_3d_mobile_glass" class="flashit zmdi zmdi-caret-down-circle"></i>
+                            </div>
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--3d-mobile-glass-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/3d-glass-foil/3d-glass-foil-3.jpg" alt="" />
@@ -1466,7 +1486,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#3DmobileGlassModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1474,7 +1494,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--3d-mobile-glass-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/3d-glass-foil/3d-glass-foil-4.jpg" alt="" />
@@ -1496,7 +1516,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#3DmobileGlassModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1504,7 +1524,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--3d-mobile-glass-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/3d-glass-foil/3d-glass-foil-5.jpg" alt="" />
@@ -1526,7 +1546,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#3DmobileGlassModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1534,7 +1554,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--3d-mobile-glass-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/3d-glass-foil/3d-glass-foil-6.jpg" alt="" />
@@ -1556,7 +1576,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#3DmobileGlassModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1564,7 +1584,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--3d-mobile-glass-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/3d-glass-foil/3d-glass-foil-7.jpg" alt="" />
@@ -1586,7 +1606,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#3DmobileGlassModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1594,7 +1614,7 @@
                         </div>
                         <!-- product-item end -->
                         <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 popular-product__div--3d-mobile-glass-hide">
                             <div class="product-item">
                                 <div class="product-img">
                                     <img src="img/product/3d-glass-foil/3d-glass-foil-8.jpg" alt="" />
@@ -1616,7 +1636,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#3DmobileGlassModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1652,7 +1672,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#mobileFoilModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1682,7 +1702,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#mobileFoilModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1712,7 +1732,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#mobileFoilModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1748,67 +1768,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product-item end -->
-                        <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
-                            <div class="product-item">
-                                <div class="product-img">
-                                    <img src="img/product/apple-watch/apple-watch-2.jpg" alt="" />
-                                </div>
-                                <div class="product-info">
-                                    <h6 class="product-title">
-                                        apple watch üvegfólia
-                                    </h6>
-                                    <div class="pro-rating">
-                                        <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                        <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                        <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                        <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                        <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
-                                    </div>
-                                    <h3 class="pro-price">1000.- Ft tól</h3>
-                                    <ul class="action-button">
-                                        <li>
-                                            <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- product-item end -->
-                        <!-- product-item start -->
-                        <div class="col-lg-3 col-md-4">
-                            <div class="product-item">
-                                <div class="product-img">
-                                    <img src="img/product/apple-watch/apple-watch-3.jpg" alt="" />
-                                </div>
-                                <div class="product-info">
-                                    <h6 class="product-title">
-                                        apple watch üvegfólia
-                                    </h6>
-                                    <div class="pro-rating">
-                                        <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                        <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                        <a href="#"><i class="zmdi zmdi-star"></i></a>
-                                        <a href="#"><i class="zmdi zmdi-star-half"></i></a>
-                                        <a href="#"><i class="zmdi zmdi-star-outline"></i></a>
-                                    </div>
-                                    <h3 class="pro-price">1000.- Ft tól</h3>
-                                    <ul class="action-button">
-                                        <li>
-                                            <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#appleWatchModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1838,7 +1798,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#appleWatchModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1868,7 +1828,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#appleWatchModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1898,7 +1858,7 @@
                                             <a href="#" title="Wishlist"><i class="zmdi zmdi-favorite"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#productModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#appleWatchModal" title="Quickview"><i class="zmdi zmdi-zoom-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1912,9 +1872,8 @@
         </div>
     </div>
     <!-- PRODUCT TAB SECTION END -->
-
     <!-- BLOG SECTION START -->
-    <div class="blog-section blog-section-rolunk mb-50">
+    <div id="about-us" class="blog-section blog-section-rolunk bg-color-w box-s">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -1929,36 +1888,22 @@
                 <div class="row">
                     <!-- blog-item start -->
                     <div class="col-xl-6 col-12">
-                        <div class="blog-item">
-                            <img src="img/blog/PIP_2223.jpg" alt="">
-                            <div class="blog-desc">
-                                <h5>Választhat üzleteink közül</h5>
-                                <ul>
+                        <div class="team-member box-shadow bg-shape">
+                            <div class="team-member-photo">
+                                <img src="img/team/marci.jpg" alt="">
+                            </div>
+                            <div class="team-member-info pt-20">
+                                <h5 class="member-name">Antal Marci</h5>
+                                <p class="member-position">Értékesítő</p>
+                                <p class="mb-20">A technológia mindig is kétélű fegyver lesz,</p>
+                                <ul class="footer-social">
                                     <li>
-                                        <a href="#">
-                                            <p>iGsm Box Budaörs Auchan</p>
+                                        <a class="facebook" href="https://www.facebook.com/profile.php?id=100012902379198" title="Facebook"><i class="zmdi zmdi-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a class="instagram" href="https://www.instagram.com/marcellantal/?hl=hu" title="Instagram">
+                                            <i class="zmdi zmdi-instagram"></i>
                                         </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <p>iGsm Box Maglód Auchan</p>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <p>iGsm Box Soroksár Auchan</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <ul class="blog-meta">
-                                    <li>
-                                        <a href="#"><i class="zmdi zmdi-favorite"></i>89 Like</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="zmdi zmdi-comments"></i>59 Comments</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="zmdi zmdi-share"></i>29 Share</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1967,10 +1912,54 @@
                     <!-- blog-item end -->
                     <!-- blog-item start -->
                     <div class="col-xl-6 col-12">
+                        <div class="team-member box-shadow bg-shape">
+                            <div class="team-member-photo">
+                                <img src="img/team/face.gif" alt="">
+                            </div>
+                            <div class="team-member-info pt-20">
+                                <h5 class="member-name">Mualim A Krisztián</h5>
+                                <p class="member-position">Webfejlesztő / értékesítő</p>
+                                <p class="mb-20">óriási hatalom, amelyet az egész emberiség javára kell felhasználni ! <i class="zmdi zmdi-mood"></i></p>
+                                <ul class="footer-social">
+                                    <li>
+                                        <a class="facebook" href="https://www.facebook.com/adnan.mualim" title="Facebook"><i class="zmdi zmdi-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a class="instagram" href="https://www.instagram.com/mualimadnankrisztian/?hl=hu" title="Instagram">
+                                            <i class="zmdi zmdi-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="twitter" href="https://twitter.com/KaraKrisz_" title="Twitter"><i class="zmdi zmdi-twitter"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog-item end -->
+                    <!-- blog-item start -->
+                    <div class="col-xl-12 col-12 pt-60">
                         <div class="blog-item">
-                            <img src="img/blog/7.jpg" alt="">
+                            <img src="img/blog/word.gif" alt="">
                             <div class="blog-desc">
-                                <p>-</p>
+                                <h5>Választhat üzleteink közül</h5>
+                                <ul>
+                                    <li>
+                                        <a href="#" data-toggle="modal" data-target="#budaors">
+                                            <p>iGsm Box Budaörs Auchan</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-toggle="modal" data-target="#maglod">
+                                            <p>iGsm Box Maglód Auchan</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-toggle="modal" data-target="#soroksar">
+                                            <p>iGsm Box Soroksár Auchan</p>
+                                        </a>
+                                    </li>
+                                </ul>
                                 <ul class="blog-meta">
                                     <li>
                                         <a href="#"><i class="zmdi zmdi-favorite"></i>89 Like</a>
@@ -1996,8 +1985,8 @@
 <!-- START QUICKVIEW PRODUCT -->
 <div id="quickview-wrapper">
     <!-- Modal -->
-    <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
+    <div class="modal fade" id="SiliconeCaseModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-product-item " role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -2006,47 +1995,329 @@
                     <div class="modal-product clearfix">
                         <div class="product-images">
                             <div class="main-image images">
-                                <img alt="" src="img/product/quickview.jpg">
+                                <img alt="" src="img/product/siliconeModal.jpg">
                             </div>
                         </div><!-- .product-images -->
 
                         <div class="product-info">
-                            <h1>Aenean eu tristique</h1>
+                            <h1>SZILIKON TOK</h1>
                             <div class="quick-desc">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec
-                                est tristique auctor. Donec non est at libero.
+                                Üzletünkben olyan magas minőségű, átlátszó, színes és mintás prémium tokok kaphatóak, melyek nem csak kényelmes fogást biztosítanak, de remekül megvédik a készüléket a sérülésektől.
+                                <strong>Az esetek 99% -ban bármilyen típusra tudjuk biztosítani a kívánt terméket!
+                                    <i>Kérjük ennek hatékonysága érdekében, hívj minket bizalommal és és érdeklődj telefonon, vagy írj üzenetet oldalunkon keresztül!</i> </strong>
                             </div>
-                            <div class="social-sharing">
-                                <div class="widget widget_socialsharing_widget">
-                                    <h3 class="widget-title-modal">Ossza meg ezt a terméket</h3>
-                                    <ul class="social-icons clearfix">
-                                        <li>
-                                            <a class="facebook" href="#" target="_blank" title="Facebook">
-                                                <i class="zmdi zmdi-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="google-plus" href="#" target="_blank" title="Google +">
-                                                <i class="zmdi zmdi-google-plus"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="twitter" href="#" target="_blank" title="Twitter">
-                                                <i class="zmdi zmdi-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="pinterest" href="#" target="_blank" title="Pinterest">
-                                                <i class="zmdi zmdi-pinterest"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="rss" href="#" target="_blank" title="RSS">
-                                                <i class="zmdi zmdi-rss"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
+                        </div><!-- .product-info -->
+                    </div><!-- .modal-product -->
+                </div><!-- .modal-body -->
+            </div><!-- .modal-content -->
+        </div><!-- .modal-dialog -->
+    </div>
+    <!-- END Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="BookCaseModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-product-item " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-product clearfix">
+                        <div class="product-images">
+                            <div class="main-image images">
+                                <img alt="" src="img/product/bookCaseModal.jpg">
+                            </div>
+                        </div><!-- .product-images -->
+
+                        <div class="product-info">
+                            <h1>KÖNYVTOK</h1>
+                            <div class="quick-desc">
+                                Notesz tipusú kinyitható tokjaink a tökéletesen kialakított forma miatt pontosan illeszkednek az adott készülékhez. A mágneses zárnak köszönhetően minden irányból véd a mechanika sérülések ellen.
+                                <strong>Az esetek 99% -ban bármilyen típusra tudjuk biztosítani a kívánt terméket!
+                                    <i>Kérjük ennek hatékonysága érdekében, hívj minket bizalommal és és érdeklődj telefonon, vagy írj üzenetet oldalunkon keresztül!</i> </strong>
+                            </div>
+                        </div><!-- .product-info -->
+                    </div><!-- .modal-product -->
+                </div><!-- .modal-body -->
+            </div><!-- .modal-content -->
+        </div><!-- .modal-dialog -->
+    </div>
+    <!-- END Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="securityCaseModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-product-item " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-product clearfix">
+                        <div class="product-images">
+                            <div class="main-image images">
+                                <img alt="" src="img/product/securityCaseModal.jpg">
+                            </div>
+                        </div><!-- .product-images -->
+
+                        <div class="product-info">
+                            <h1>DEFENDER TOK</h1>
+                            <div class="quick-desc">
+                                Ütésálló tokjaink fokozott védelmet nyújtanak készülékének megelőzve a károsodást. Prémium anyaghasználat mellett a dizájn sem utolsó szempont, ízléses és elegáns formatervezés jellemzi.
+                                <strong>Az esetek 99% -ban bármilyen típusra tudjuk biztosítani a kívánt terméket!
+                                    <i>Kérjük ennek hatékonysága érdekében, hívj minket bizalommal és és érdeklődj telefonon, vagy írj üzenetet oldalunkon keresztül!</i> </strong>
+                            </div>
+                        </div><!-- .product-info -->
+                    </div><!-- .modal-product -->
+                </div><!-- .modal-body -->
+            </div><!-- .modal-content -->
+        </div><!-- .modal-dialog -->
+    </div>
+    <!-- END Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="smartCaseModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-product-item " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-product clearfix">
+                        <div class="product-images">
+                            <div class="main-image images">
+                                <img alt="" src="img/product/smartCase.jpg">
+                            </div>
+                        </div><!-- .product-images -->
+
+                        <div class="product-info">
+                            <h1>OKOS TOK</h1>
+                            <div class="quick-desc">
+                                Aki egy igazán innovatív és elegáns tokra vágyik, amely nem csak a védelem, de a használat szempontjából is kiemelkedő, akkor egy okostok kiváló választás. Intelligens kijelzőjének köszönhetően olyan adatok jelennek meg a tok felületén mint például az idő vagy az aktuális hívás, mely felvehető és lebonyolítható a tok kinyitása nélkül.
+                                <strong>Az esetek 99% -ban bármilyen típusra tudjuk biztosítani a kívánt terméket!
+                                    <i>Kérjük ennek hatékonysága érdekében, hívj minket bizalommal és és érdeklődj telefonon, vagy írj üzenetet oldalunkon keresztül!</i> </strong>
+                            </div>
+                        </div><!-- .product-info -->
+                    </div><!-- .modal-product -->
+                </div><!-- .modal-body -->
+            </div><!-- .modal-content -->
+        </div><!-- .modal-dialog -->
+    </div>
+    <!-- END Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="mobileGlassModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-product-item " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-product clearfix">
+                        <div class="product-images">
+                            <div class="main-image images">
+                                <img alt="" src="img/product/mobileGlassModal.jpg">
+                            </div>
+                        </div><!-- .product-images -->
+
+                        <div class="product-info">
+                            <h1>ÜVEGFÓLIA</h1>
+                            <div class="quick-desc">
+                                Átlátszó, edzett üvegfólia, mely a nagyobb és mélyebb karcok mellett a töréstől is megvédi a készülék kijelzőjét. Gyorsan és könnyen felhelyezhető akár otthoni körülmények között is.
+                                <strong>Az esetek 99% -ban bármilyen típusra tudjuk biztosítani a kívánt terméket!
+                                    <i>Kérjük ennek hatékonysága érdekében, hívj minket bizalommal és és érdeklődj telefonon, vagy írj üzenetet oldalunkon keresztül!</i> </strong>
+                            </div>
+                        </div><!-- .product-info -->
+                    </div><!-- .modal-product -->
+                </div><!-- .modal-body -->
+            </div><!-- .modal-content -->
+        </div><!-- .modal-dialog -->
+    </div>
+    <!-- END Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="3DmobileGlassModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-product-item " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-product clearfix">
+                        <div class="product-images">
+                            <div class="main-image images">
+                                <img alt="" src="img/product/3dMobileGlassModal.jpg">
+                            </div>
+                        </div><!-- .product-images -->
+
+                        <div class="product-info">
+                            <h1>3D ÜVEGFÓLIA</h1>
+                            <div class="quick-desc">
+                                Edzett, tok barát üvegfólia lekerekített szélekkel, mely tökéletesen lefedi a készülék kijelzőjének teljes felületét. A készülék színéhez passzoló színes kerettel.
+                                <strong>Az esetek 99% -ban bármilyen típusra tudjuk biztosítani a kívánt terméket!
+                                    <i>Kérjük ennek hatékonysága érdekében, hívj minket bizalommal és és érdeklődj telefonon, vagy írj üzenetet oldalunkon keresztül!</i> </strong>
+                            </div>
+                        </div><!-- .product-info -->
+                    </div><!-- .modal-product -->
+                </div><!-- .modal-body -->
+            </div><!-- .modal-content -->
+        </div><!-- .modal-dialog -->
+    </div>
+    <!-- END Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="mobileFoilModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-product-item " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-product clearfix">
+                        <div class="product-images">
+                            <div class="main-image images">
+                                <img alt="" src="img/product/foilModal.jpg">
+                            </div>
+                        </div><!-- .product-images -->
+
+                        <div class="product-info">
+                            <h1>FÓLIA</h1>
+                            <div class="quick-desc">
+                                Átlátszó hajlékony fólia, mely remek védelmet nyújt kijelzőjének a karcokkal szemben.
+                                <strong>Az esetek 99% -ban bármilyen típusra tudjuk biztosítani a kívánt terméket!
+                                    <i>Kérjük ennek hatékonysága érdekében, hívj minket bizalommal és és érdeklődj telefonon, vagy írj üzenetet oldalunkon keresztül!</i> </strong>
+                            </div>
+                        </div><!-- .product-info -->
+                    </div><!-- .modal-product -->
+                </div><!-- .modal-body -->
+            </div><!-- .modal-content -->
+        </div><!-- .modal-dialog -->
+    </div>
+    <!-- END Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="appleWatchModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-product-item " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-product clearfix">
+                        <div class="product-images">
+                            <div class="main-image images">
+                                <img alt="" src="img/product/appleWatchGlassModel.jpg">
+                            </div>
+                        </div><!-- .product-images -->
+
+                        <div class="product-info">
+                            <h1>APPLE WATCH ÜVEGFÓLIA</h1>
+                            <div class="quick-desc">
+                                Edzett üvegfólia lekerekített szélekkel, mely tökéletesen lefedi a készülék kijelzőjének teljes felületét. A készülék színéhez passzoló színes kerettel. </div>
+                            <strong>Az esetek 99% -ban bármilyen típusra tudjuk biztosítani a kívánt terméket!
+                                <i>Kérjük ennek hatékonysága érdekében, hívj minket bizalommal és és érdeklődj telefonon, vagy írj üzenetet oldalunkon keresztül!</i> </strong>
+                        </div><!-- .product-info -->
+                    </div><!-- .modal-product -->
+                </div><!-- .modal-body -->
+            </div><!-- .modal-content -->
+        </div><!-- .modal-dialog -->
+    </div>
+    <!-- END Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="soroksar" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-product-item " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-product clearfix">
+                        <div class="product-images">
+                            <div class="main-image images">
+                                <img alt="" src="img/product/auchan.jpg">
+                            </div>
+                        </div><!-- .product-images -->
+
+                        <div class="product-info">
+                            <h1>Elérhetőségek</h1>
+                            <div class="quick-desc">
+                                <ul>
+                                    <li>
+                                        Cím: Budapest, Bevásárló u. 2, 1239
+                                    </li>
+                                    <li>
+                                        Telefonszám: +36 70 631 4596
+                                    </li>
+                                    <li>
+                                        Email: fullgsmsoroksar@gmail.com
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!-- .product-info -->
+                    </div><!-- .modal-product -->
+                </div><!-- .modal-body -->
+            </div><!-- .modal-content -->
+        </div><!-- .modal-dialog -->
+    </div>
+    <!-- END Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="budaors" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-product-item " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-product clearfix">
+                        <div class="product-images">
+                            <div class="main-image images">
+                                <img alt="" src="img/product/auchan.jpg">
+                            </div>
+                        </div><!-- .product-images -->
+
+                        <div class="product-info">
+                            <h1>Elérhetőségek</h1>
+                            <div class="quick-desc">
+                                <ul>
+                                    <li>
+                                        Cím: 2040 Budaörs Sport u. 2 - 4.
+                                    </li>
+                                    <li>
+                                        Telefonszám: +36 70 904 4891
+                                    </li>
+                                    <li>
+                                        Email: fullgsmbudaors@gmail.com
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!-- .product-info -->
+                    </div><!-- .modal-product -->
+                </div><!-- .modal-body -->
+            </div><!-- .modal-content -->
+        </div><!-- .modal-dialog -->
+    </div>
+    <!-- END Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="maglod" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-product-item " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-product clearfix">
+                        <div class="product-images">
+                            <div class="main-image images">
+                                <img alt="" src="img/product/auchan.jpg">
+                            </div>
+                        </div><!-- .product-images -->
+
+                        <div class="product-info">
+                            <h1>Elérhetőségek</h1>
+                            <div class="quick-desc">
+                                <ul>
+                                    <li>
+                                        Cím: Maglód, Eszterházy János u. 1, 2234
+                                    </li>
+                                    <li>
+                                        Telefonszám: +36 70 600 6630
+                                    </li>
+                                    <li>
+                                        Email: igbmaglod@gmail.com
+                                    </li>
+                                </ul>
                             </div>
                         </div><!-- .product-info -->
                     </div><!-- .modal-product -->
