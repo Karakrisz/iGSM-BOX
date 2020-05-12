@@ -25,7 +25,7 @@ route('/', 'MessageSubmitController', "POST");
 
 route('/logout', 'LogoutSubmitController');
 route('/informative', 'informativeController');
-
+route('/monthly-offer', 'monthlyOfferController');
 
 list($view, $data) = dispatch($cleaned, 'notFoundController');
 

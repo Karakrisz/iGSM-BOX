@@ -36,7 +36,7 @@
                                     <li>
                                         <a href="/login">
                                             <i class="zmdi zmdi-lock"></i>
-                                            Bejelentkezés
+                                            Bejelentkezés / Regisztráció
                                         </a>
                                     </li>
                                 <?php endif ?>
@@ -75,7 +75,7 @@
             <div class="full-width-mega-dropdown">
                 <div class="row">
                     <!-- logo -->
-                    <div class="container col-lg-4 col-md-4">
+                    <div class="container col-lg-2 col-md-4">
                         <div class="img-decoration">
                             <img id='gear' src='data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMjQiIHdpZHRoPSI4OTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8y%0D%0AMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTQ0Ny45MzggMzUwQzM1OC41MzEgMzUwIDI4NiA0MjIuNTMx%0D%0AIDI4NiA1MTJjMCA4OS4zNzUgNzIuNTMxIDE2Mi4wNjIgMTYxLjkzOCAxNjIuMDYyIDg5LjQzOCAw%0D%0AIDE2MS40MzgtNzIuNjg4IDE2MS40MzgtMTYyLjA2MkM2MDkuMzc1IDQyMi41MzEgNTM3LjM3NSAz%0D%0ANTAgNDQ3LjkzOCAzNTB6TTc3Mi42MjUgNjA1LjA2MmwtMjkuMTg4IDcwLjMxMiA1Mi4wNjIgMTAy%0D%0ALjI1IDYuODc1IDEzLjUtNzIuMTg4IDcyLjE4OEw2MTEuNzUgODA3LjM3NWwtNzAuMzEyIDI4Ljg3%0D%0ANUw1MDUuNzUgOTQ1LjVsLTQuNTYyIDE0LjVIMzk5LjE1NkwzNTUgODM2LjY4OGwtNzAuMzEyLTI5%0D%0ALTEwMi40MDQgNTEuOTM4LTEzLjUgNi43NS03Mi4xNTYtNzIuMTI1IDU1Ljg3NS0xMTguNS0yOC45%0D%0ANjktNzAuMjVMMTQuNDY5IDU2OS44NzUgMCA1NjUuMTg4VjQ2My4yMTlMMTIzLjQwNiA0MTlsMjgu%0D%0AOTY5LTcwLjE4OC01MS45MDYtMTAyLjQ2OS02Ljg0NC0xMy40MzggNzIuMDYyLTcyLjA2MiAxMTgu%0D%0ANTk0IDU1Ljg0NCA3MC4yMTktMjkuMDMxIDM1LjY1Ni0xMDkuMTg4TDM5NC43NSA2NGgxMDJsNDQu%0D%0AMTg4IDEyMy40NjkgNzAuMTI1IDI5LjAzMUw3MTMuNSAxNjQuNTMwOTk5OTk5OTk5OTVsMTMuNjI1%0D%0ALTYuODQ0IDcyLjEyNSA3Mi4wNjItNTUuODc1IDExOC40MDZMNzcyLjI1IDQxOC41bDEwOS4zNzUg%0D%0AMzUuNjU2TDg5NiA0NTguNzV2MTAxLjkzOEw3NzIuNjI1IDYwNS4wNjJ6IiAvPgo8L3N2Zz4K' height="50">
                         </div>
@@ -86,7 +86,7 @@
                         </div>
                     </div>
                     <!-- primary-menu -->
-                    <div class="col-lg-8 d-none d-lg-block">
+                    <div class="col-lg-10 d-none d-lg-block">
                         <nav id="primary-menu">
                             <ul class="main-menu text-center">
                                 <li><a class="scroll" href="./#about-us">rólunk</a></li>
@@ -96,6 +96,7 @@
                                 <li><a class="scroll" href="./#mobile-glass">kijelző védők</a>
                                 </li>
                                 <li><a class="scroll" href="./#special-offe">havi akció</a></li>
+                                <li><a href="/monthly-offer">havi ajánlatunk</a></li>
                                 <li><a class="scroll" href="./#contact">kapcsolat</a></li>
                             </ul>
                         </nav>
@@ -121,6 +122,7 @@
                             <li><a class="scroll" href="./#mobile-glass">kijelző védők</a>
                             </li>
                             <li><a class="scroll" href="./#special-offe">havi akció</a></li>
+                            <!-- <li><a href="/monthly-offer">havi ajánlatunk</a></li> -->
                             <li><a class="scroll" href="./#contact">kapcsolat</a></li>
                         </ul>
                     </nav>
@@ -138,7 +140,7 @@
                 <div class="modal-product clearfix">
                     <div class="cookie-product-info">
                         <div class="cookie-product-info-first-phase">
-                            <form method="POST" action="/iGSM-PHP-DEMO">
+                            <form method="POST" action="/">
                                 <div class="form-group">
                                     <label for="title">A kényelmed érdekében sütiket használunk.</label>
                                 </div>
@@ -157,7 +159,7 @@
                         <div class="not-accepted-cookie-product-info-second-phase">
                             <h1>Biztos nem fogadod el?</h1>
                             <div class="quick-desc">
-                                Ha nem fogadod el, nem fogod látni a regisztrációhoz - bejelentkezéshez tartozó felületet. Nem tudsz majd regisztrálni! Biztosan ezt szeretnéd? </div> <br>
+                                Ha nem fogadod el, nem fogod látni a regisztrációhoz - bejelentkezéshez tartozó felületet. Nem tudsz majd regisztrálni, továbbá rontja a felhasználói élményt! Biztosan ezt szeretnéd? </div> <br>
                             <form method="POST" action="/iGSM-PHP-DEMO">
                                 <button type="submit" name="not-accepted-cookies-true" id="not-accepted-cookies-true" class="btn cookie-product-info-first-phase-btn-okay">igen</button>
                                 <button type="submit" name="not-accepted-cookies-false" id="not-accepted-cookies-false" class="btn cookie-product-info-first-phase-btn-not-accepted">Nem</button>

@@ -1,5 +1,5 @@
         <!-- Start page content -->
-        <section id="page-content" class="page-wrapper section">
+        <section id="page-content" class="page-wrapper bg-color-w section">
 
             <!-- ABOUT SECTION START -->
             <div class="about-section mb-50">

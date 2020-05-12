@@ -117,6 +117,16 @@ function notFoundController()
     ];
 }
 
+function monthlyOfferController()
+{
+    return [
+        "monthly-offer",
+        [
+            "title" => "Havi ajánlatunk"
+        ]
+    ];
+}
+
 function informativeController()
 {
     return [

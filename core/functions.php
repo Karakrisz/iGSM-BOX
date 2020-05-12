@@ -1,8 +1,10 @@
 <?php
 function logMessage($level, $message)
 {
+    $backtrace = debug_backtrace(DEBUG_BACKTRACE_PROVIDE_OBJECT, 2)[0];
     $file = fopen('app.log', "a");
-    fwrite($file, "[$level] $message" . PHP_EOL);
+    fwrite($file, "[$level] ". date(DATE_ISO8601). " " . $backtrace["file"] . ":" . $backtrace["line"]. 
+        " $message" . PHP_EOL);
     fclose($file);
 }
 
@@ -11,6 +13,7 @@ function errorPage()
     include "tamplates/error.php";
     die();
 }
+
 
 function esc($string)
 {
@@ -68,7 +71,7 @@ function User_Registration($connection, $register_name, $register_email, $regist
 
 function loginUser($connection, $email, $password)
 {
-    if ($statement = mysqli_prepare($connection, 'SELECT id, name, password FROM users WHERE email = ?')) {
+    if ($statement = mysqli_prepare($connection, 'SELECT id, name, password FROM users WHERE emai = ?')) {
         mysqli_stmt_bind_param($statement, "s", $email);
         mysqli_stmt_execute($statement);
         $result = mysqli_stmt_get_result($statement);

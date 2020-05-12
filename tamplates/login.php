@@ -1,4 +1,4 @@
-<div class="breadcrumbs-section plr-200  mb-50 bg-color-w section">
+<div class="breadcrumbs-section plr-200 mb-50 bg-color-w section">
     <div class="breadcrumbs overlay-bg">
         <div class="container">
             <div class="row">
@@ -17,7 +17,7 @@
 <div id="page-content" class="page-wrapper section">
 
     <!-- LOGIN SECTION START -->
-    <div class="login-section bg-color-w mb-50">
+    <div class="login-section bg-color-w pt-pb">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -25,7 +25,7 @@
                         <h6 class="widget-title border-left mt-30 mb-40">REGISZTRÁLT ÜGYFELEK</h6>
                         <?php if ($containsError) : ?>
                             <div class="alert alert-danger">
-                                <p>valami nem ok, próbáld meg újra</p>
+                                <p>Valamelyik adatot hibásan adtad meg, próbáld meg újra!</p>
                             </div>
                         <?php endif ?>
                         <form method="POST" action="/login">
@@ -80,7 +80,7 @@
                                                    <option value="c-3">Kaposvár</option>
                                                </select>
                                            </div> -->
-                                    <div class="g-recaptcha" id="g-recaptcha" language="hu" data-sitekey="6Ld55w8TAAAAANrltHdhGC-RsSlKyDPls-QWWvhN"></div>
+                                    <div class="g-recaptcha" id="g-recaptcha" language="hu" data-sitekey="6LeFwfEUAAAAAD8snQNOkHHBq00HV-za6wEewGKa"></div>
 
                                 </div>
                                 <div class="row">

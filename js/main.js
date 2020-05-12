@@ -572,11 +572,12 @@
     // ezt szebben megírni
     $('#cookies').click(function (event) {
         // var date = new Date();
-        //   date.setTime(date.getTime() + (60 * 1000));
+        // date.setTime(date.getTime() + (60 * 1000));
         event.preventDefault();
         $('#CookieModal').modal('hide');
         $('.header-top-bar').slideDown();
         $('.smessage-btn').slideDown();
+        $('.smessageOff-btn').slideDown();
         $('.cookies-set-btn').hide();
         $.cookie("cookieAccepted", true, {
             expires: 30
@@ -587,11 +588,13 @@
         // show cookie info
         $('#CookieModal').modal('show');
         $('.cookies-set-btn').slideDown();
+        $('.smessageOff-btn').hide();
         $('.smessage-btn').hide();
         $('.header-top-bar').hide();
     } else {
         $('.header-top-bar').slideDown();
         $('.smessage-btn').slideDown();
+        $('.smessageOff-btn').slideDown();
         $('.cookies-set-btn').hide();
     }
     /* -------------------------------------
@@ -607,7 +610,7 @@
     });
 
     $('#not-accepted-cookies-false').click(function (event) {
-        // var date = new Date();
+        //  var date = new Date();
         // date.setTime(date.getTime() + (60 * 1000));
         event.preventDefault();
         $('#CookieModal').modal('hide');
@@ -654,6 +657,13 @@
         $('.popular-product__div--3d-mobile-glass-hide').slideDown();
         $('.popular-product__div--mobile-visualization-3d-mobile-glass-content').hide();
     });
+
+    /* -------------------------------------
+      8. KaraKrisz jQuery loginRedirect
+    ------------------------------------- */
+    // ezt szebben megírni
+
+
 })(jQuery);
 /* ********************************************
     18. STICKY sticky-header

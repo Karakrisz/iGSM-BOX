@@ -1880,7 +1880,6 @@
                     <div class="section-title text-left mb-40">
                         <h2 class="uppercase">Rólunk</h2> <br>
                         <h6>Nézd meg üzleteinket, és ismerd meg csapatunkat,</h6>
-                        <strong>Köszönjük, hogy nálunk meglátogattad oldalunkat!</strong>
                     </div>
                 </div>
             </div>
